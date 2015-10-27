@@ -1,0 +1,12 @@
+This is an example of an implementation of Dijkstra's Algorithm for
+calculating movement ranges on a 2D grid.
+
+Run it as follows:
+	mono ./nDijkstrasTest.exe [MAP]
+
+where MAP is one of the the included map files. The program will read
+the map file and print out the movement ranges for each of the 'S'
+characters. How far these characters can move is determined by the
+surrounding terrain types and whether they are being obstructed by 'R'
+characters, who will obstruct the movement of 'S' characters.
+

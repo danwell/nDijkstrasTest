@@ -1,6 +1,13 @@
 This is an example of an implementation of Dijkstra's Algorithm for
 calculating movement ranges on a 2D grid.
 
+One popular staple of turn-based games using a 2D grid, such as Advance
+Wars or Shining Force, is the tatical movement and placement of units.
+Smart placement can gain you advantageous ground, avoid attacks and
+even give you the initiative. This is an example of an algorithm for
+determining movement range for a given tile based on surrounding tiles
+and movement costs.
+
 Run it as follows:
 	mono ./nDijkstrasTest.exe [MAP]
 
